@@ -14,8 +14,8 @@
   nav,
   footer {
     padding: 1% 0;
-    background-color: #aaa;
-    
+    background-color: rgb(95, 139, 236);
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
 
   ul {
@@ -31,9 +31,10 @@
     display: inline;
   }
   
-  h1 {
+  h1, h2 {
     flex-direction: row;
     justify-content: space-evenly;
+    
   }
   
   header {
@@ -49,11 +50,13 @@
   section {
     min-height: 200px;
     padding: 6% 0;
-    background-color: #bbb;
+    background-color: rgb(210, 227, 247);
+    font-family: 'Times New Roman', Times, serif;
+    color: solid black;
   }
   
   section:nth-child(even) {
-    background-color: #ddd;
+    background-color: rgb(153, 175, 245);
   }
 
   img {
