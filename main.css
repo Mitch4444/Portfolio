@@ -2,6 +2,7 @@
     box-sizing: border-box;
   }
   
+
   body {
     font-family: "Open Sans",
     sans-serif; 
@@ -14,12 +15,14 @@
   nav,
   footer {
     padding: 1% 0;
-    background-color: rgb(95, 139, 236);
+    background-color: rgb(95, 184, 236);
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
 
-  ul {
+  li {
       list-style-type:none;
+      display: inline-block;
+      margin-right: 100px;
   }
   
   nav {
@@ -34,6 +37,7 @@
   h1, h2 {
     flex-direction: row;
     justify-content: space-evenly;
+    text-align: center;
     
   }
   
@@ -49,14 +53,14 @@
   
   section {
     min-height: 200px;
-    padding: 6% 0;
-    background-color: rgb(210, 227, 247);
+    padding: 2% 0;
+    background-color: whitesmoke;
     font-family: 'Times New Roman', Times, serif;
     color: solid black;
   }
   
   section:nth-child(even) {
-    background-color: rgb(153, 175, 245);
+    background-color: rgb(210, 227, 247);
   }
 
   img {
@@ -66,4 +70,30 @@
   .contact {
     flex-direction: column;
     display: block;
+  }
+
+  #About-me {
+    text-align: left;
+  }
+
+  .item {
+    border: 1px solid black;
+  }
+
+  .title  {
+    color: #989898;
+  }
+
+  .name {
+    margin-right: 550px;
+  }
+
+  a:link {
+    text-decoration: none;
+    color: black;
+  }
+
+  a:visited {
+    text-decoration: none;
+    color: black;
   }
